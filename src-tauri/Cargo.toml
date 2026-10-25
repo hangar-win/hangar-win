@@ -1,0 +1,32 @@
+[package]
+name = "app"
+version = "0.1.0"
+description = "Modern Windows package manager UI for Winget and Chocolatey"
+authors = ["Fatih Sglm"]
+license = "MIT"
+repository = "https://github.com/hangar-win/hangar-win"
+edition = "2021"
+rust-version = "1.95"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.5.3", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+tauri = { version = "2.9.5", features = [] }
+tauri-plugin-log = "2"
+tauri-plugin-shell = "2"
+tauri-plugin-updater = "2"
+windows-core = "0.100"
+windows-future = "0.100"
+windows-collections = "0.100"
+windows-time = "0.100"
+windows-reference = "0.100"

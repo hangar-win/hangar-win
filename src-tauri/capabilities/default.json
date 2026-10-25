@@ -1,0 +1,52 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Core window permissions plus read-only choco invocations; winget runs through its COM API and choco writes run elevated from Rust",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "shell:allow-open",
+    "updater:default",
+    {
+      "identifier": "shell:allow-execute",
+      "allow": [
+        {
+          "name": "choco-version",
+          "cmd": "choco",
+          "args": [
+            "--version"
+          ]
+        },
+        {
+          "name": "choco-list",
+          "cmd": "choco",
+          "args": [
+            "list",
+            "-r"
+          ]
+        },
+        {
+          "name": "choco-outdated",
+          "cmd": "choco",
+          "args": [
+            "outdated",
+            "-r"
+          ]
+        },
+        {
+          "name": "choco-search",
+          "cmd": "choco",
+          "args": [
+            "search",
+            {
+              "validator": "^[\\p{L}\\p{N}][\\p{L}\\p{N} ._+\\-]{0,99}$"
+            },
+            "-r"
+          ]
+        }
+      ]
+    }
+  ]
+}

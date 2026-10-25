@@ -1,0 +1,342 @@
+{
+  "app": {
+    "title": "Hangar",
+    "sources": "WinGet · Choco · Store · Scoop",
+    "notAdminTitle": "Not running as administrator",
+    "notAdminDesc": "Some installs may ask for Windows permission.",
+    "notAdminShort": "Not admin",
+    "refresh": "Refresh",
+    "refreshing": "Checking…",
+    "installNew": "Install new",
+    "silentInstall": "Silent install",
+    "silentHint": "No windows, terms accepted automatically"
+  },
+  "nav": {
+    "label": "Main menu",
+    "library": "My apps",
+    "discover": "Discover",
+    "operations": "Activity",
+    "settings": "Settings",
+    "back": "Back"
+  },
+  "console": {
+    "title": "Console",
+    "open": "Open console",
+    "close": "Close console",
+    "clear": "Clear",
+    "empty": "Nothing logged yet."
+  },
+  "common": {
+    "cancel": "Cancel",
+    "clear": "Clear"
+  },
+  "source": {
+    "winget": "WinGet",
+    "chocolatey": "Chocolatey",
+    "msstore": "Microsoft Store",
+    "code": {
+      "winget": "WINGET",
+      "chocolatey": "CHOCO",
+      "msstore": "STORE",
+      "scoop": "SCOOP"
+    },
+    "scoop": "Scoop"
+  },
+  "template": {
+    "ledger": "Service Ledger",
+    "metro": "Metro Wayfinding",
+    "ledgerDesc": "Side menu, record table, service stamp",
+    "metroDesc": "Top signage band, line sections, version journeys"
+  },
+  "library": {
+    "installed": "{n} installed",
+    "due": "{n} due for service",
+    "dueShort": "{n} updates waiting",
+    "lastChecked": "last checked {time}",
+    "neverChecked": "not checked yet",
+    "updateAll": "Run {n} updates",
+    "updateAllMetro": "Update {n} apps",
+    "updatingAll": "Updating…",
+    "statusFilter": "Filter by status",
+    "status": {
+      "due": "Needs update",
+      "all": "All",
+      "current": "Up to date",
+      "other": "Other"
+    },
+    "sourceFilter": "Filter by source",
+    "allSources": "All sources",
+    "search": "Search by app name",
+    "loading": "Reading installed apps…",
+    "col": {
+      "no": "No.",
+      "app": "App",
+      "source": "Source",
+      "installed": "Installed",
+      "latest": "New",
+      "status": "Status",
+      "actions": "Actions",
+      "version": "Version"
+    },
+    "empty": {
+      "allCurrent": "All up to date",
+      "allCurrentDesc": "No apps are waiting for an update. Press Refresh now and then to check for new versions.",
+      "showAll": "Show all apps",
+      "noMatch": "No app matches \"{q}\"",
+      "none": "No apps match these filters",
+      "reset": "Clear filters"
+    },
+    "otherHint": "These apps aren't in any package source. Hangar can't update them, but you can uninstall them here.",
+    "noSource": "No source"
+  },
+  "state": {
+    "updateRunning": "Updating · {p}%",
+    "installRunning": "Installing · {p}%",
+    "uninstallRunning": "Removing · {p}%",
+    "failed": "Didn't work",
+    "details": "Details",
+    "due": "Service due",
+    "stamped": "Updated",
+    "current": "Up to date",
+    "update": "Update",
+    "retry": "Try again",
+    "more": "More actions for {name}",
+    "openDetail": "Open details",
+    "uninstall": "Uninstall",
+    "skipped": "Skipped {v}",
+    "pinned": "Pinned",
+    "skipVersion": "Skip {v}",
+    "pin": "Stop updating",
+    "release": "Resume updates"
+  },
+  "metro": {
+    "line": "{name} line",
+    "stops": "{n} apps",
+    "arrived": "Updated {date}",
+    "youAreHere": "You are here",
+    "olderStop": "earlier version"
+  },
+  "discover": {
+    "title": "Discover",
+    "subtitle": "Search WinGet, Chocolatey, Microsoft Store and Scoop, install in one click.",
+    "placeholder": "Type the app you want to install",
+    "search": "Search",
+    "results": "{n} results for \"{q}\"",
+    "searching": "Searching…",
+    "loadingPopular": "Preparing the list…",
+    "noResults": "No results for \"{q}\"",
+    "noResultsHint": "Check the spelling or pick another source.",
+    "installed": "Installed",
+    "install": "Install",
+    "categories": "Categories",
+    "shelf": {
+      "popular": "Popular",
+      "browser": "Browsers",
+      "communication": "Chat and calls",
+      "media": "Media",
+      "productivity": "Office and notes",
+      "developer": "Developer",
+      "gaming": "Games",
+      "tools": "Utilities",
+      "security": "Security"
+    }
+  },
+  "detail": {
+    "loading": "Fetching package details…",
+    "unknownPublisher": "Unknown publisher",
+    "updateTo": "Update to {v}",
+    "record": "Record",
+    "packageId": "Package ID",
+    "notInstalled": "Not installed",
+    "description": "Description",
+    "noDescription": "No description for this package.",
+    "adminNote": "Windows may ask for administrator permission during install.",
+    "versions": "Versions",
+    "versionsLoading": "Fetching versions…",
+    "noVersions": "Couldn't get the version list.",
+    "latest": "latest",
+    "installedHere": "Installed",
+    "switchTo": "Switch to this version",
+    "installThis": "Install this version",
+    "history": "Service history",
+    "noHistory": "This app hasn't been updated from here yet.",
+    "lastMaintenance": "Last update"
+  },
+  "operations": {
+    "runningSummary": "{n} running",
+    "failedSummary": "{n} failed",
+    "clear": "Clear finished",
+    "col": {
+      "action": "Action",
+      "started": "Started"
+    },
+    "empty": "No activity yet",
+    "emptyDesc": "Apps you install, update or uninstall show up here.",
+    "type": {
+      "install": "Install",
+      "update": "Update",
+      "uninstall": "Uninstall"
+    },
+    "status": {
+      "running": "Running",
+      "success": "Done",
+      "error": "Failed"
+    },
+    "removed": "Removed",
+    "output": "Command output",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "uninstall": {
+    "title": "Uninstall {name}?",
+    "desc": "The app is removed from this PC. Depending on the app, its own settings and files may stay behind.",
+    "confirm": "Uninstall"
+  },
+  "settings": {
+    "appearance": "Appearance",
+    "general": "General",
+    "language": "Language",
+    "languages": {
+      "tr": "Türkçe",
+      "en": "English"
+    },
+    "themes": "Themes",
+    "themesHint": "Pick a theme, copy and edit it, or share it as JSON. Custom themes can use either layout.",
+    "import": "Import",
+    "export": "Export",
+    "importError": "This file isn't a valid theme.",
+    "builtin": "Built-in",
+    "custom": "Custom",
+    "mode": "Mode",
+    "modes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "save": "Save",
+    "edit": "Edit",
+    "name": "Theme name",
+    "copyName": "{name} (copy)",
+    "groups": {
+      "ground": "Ground",
+      "text": "Text",
+      "rail": "Menu",
+      "accent": "Accent",
+      "state": "State",
+      "sources": "Sources"
+    },
+    "colors": {
+      "bg": "Background",
+      "surface": "Surface",
+      "tint": "Header band",
+      "rule": "Lines",
+      "ink": "Text",
+      "ink-2": "Secondary text",
+      "ink-3": "Muted text",
+      "rail": "Menu background",
+      "rail-ink": "Menu text",
+      "rail-muted": "Menu secondary",
+      "accent": "Main button",
+      "accent-ink": "Main button text",
+      "signature": "Signature color",
+      "focus": "Focus ring",
+      "due": "Update waiting",
+      "danger": "Error",
+      "success": "Success",
+      "src-winget": "WinGet",
+      "src-chocolatey": "Chocolatey",
+      "src-msstore": "Microsoft Store",
+      "src-scoop": "Scoop"
+    },
+    "radius": "Corner radius",
+    "fontSize": "Type size",
+    "density": "Row density",
+    "densities": {
+      "compact": "Compact",
+      "regular": "Regular",
+      "comfortable": "Comfortable"
+    },
+    "font": "Heading typeface",
+    "fonts": {
+      "segoe": "Segoe UI",
+      "bahnschrift": "Bahnschrift (signage)",
+      "system": "System"
+    },
+    "silentDesc": "Installer windows stay hidden and license terms are accepted automatically, so bulk updates never stall. Turn it off for an install that needs you to choose options.",
+    "useDefault": "Back to default",
+    "copyEdit": "Copy and edit",
+    "deleteNamed": "Delete theme {name}",
+    "editTitle": "Edit theme",
+    "editLive": "Changes show up on the screen behind right away.",
+    "layout": "Layout",
+    "palette": "Palette being edited",
+    "shape": "Shape",
+    "resetDraft": "Reset to defaults",
+    "appList": "App list",
+    "appListDesc": "Save your installed apps to a file and install them all at once on a new PC. winget can open the file too.",
+    "exportApps": "Save list",
+    "importApps": "Install from list",
+    "importTitle": "{n} apps will be installed",
+    "importSkipped": "{n} apps are already installed and will be skipped.",
+    "importNothing": "Every app in the list is already installed.",
+    "importInvalid": "This file couldn't be read. Choose a JSON file saved by Hangar or winget.",
+    "installAll": "Install all"
+  },
+  "errors": {
+    "loadTitle": "Couldn't read packages",
+    "loadDesc": "Installed apps couldn't be listed: {message}",
+    "winget": {
+      "AccessDenied": "Access denied. This installer needs administrator permission.",
+      "BlockedByPolicy": "An organization policy blocks this action.",
+      "CatalogError": "Couldn't reach the winget source. Check your internet connection.",
+      "InvalidOptions": "Invalid options for this package.",
+      "DownloadError": "Couldn't download the installer.",
+      "InstallError": "The installer reported an error.",
+      "UninstallError": "The uninstaller reported an error.",
+      "ManifestError": "The package definition is invalid.",
+      "NoApplicableInstallers": "No installer fits this PC.",
+      "NoApplicableUpgrade": "No applicable update for this package.",
+      "PackageAgreementsNotAccepted": "The package license agreement was not accepted.",
+      "InternalError": "winget reported an unexpected error."
+    },
+    "choco": {
+      "cancelled": "Administrator permission was declined, so the action was cancelled.",
+      "failed": "The Chocolatey action failed (exit code {code})."
+    },
+    "scoop": {
+      "failed": "The Scoop action didn't finish. See the output for details."
+    }
+  },
+  "credits": {
+    "source": "Source code",
+    "by": "Made by",
+    "github": "GitHub profile",
+    "linkedin": "LinkedIn profile"
+  },
+  "toast": {
+    "version": "Version {v}",
+    "bulkFailed": "{n} action failed. See Activity for details. | {n} actions failed. See Activity for details.",
+    "update": {
+      "done": "{name} updated",
+      "failed": "{name} couldn't be updated",
+      "bulk": "{n} app updated | {n} apps updated"
+    },
+    "install": {
+      "done": "{name} installed",
+      "failed": "{name} couldn't be installed",
+      "bulk": "{n} app installed | {n} apps installed"
+    },
+    "uninstall": {
+      "done": "{name} uninstalled",
+      "failed": "{name} couldn't be uninstalled"
+    }
+  },
+  "appUpdate": {
+    "title": "Hangar {version} is ready",
+    "desc": "Hangar restarts after the new version installs.",
+    "installing": "Downloading and installing…",
+    "failed": "The update couldn't be installed. Try again later.",
+    "install": "Update",
+    "later": "Later"
+  }
+}

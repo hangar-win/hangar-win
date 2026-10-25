@@ -1,0 +1,342 @@
+{
+  "app": {
+    "title": "Hangar",
+    "sources": "WinGet · Choco · Store · Scoop",
+    "notAdminTitle": "Yönetici olarak çalışmıyor",
+    "notAdminDesc": "Bazı kurulumlar Windows izni isteyebilir.",
+    "notAdminShort": "Yönetici değil",
+    "refresh": "Yenile",
+    "refreshing": "Kontrol ediliyor…",
+    "installNew": "Yeni yükle",
+    "silentInstall": "Sessiz kurulum",
+    "silentHint": "Pencere açılmaz, şartlar otomatik kabul edilir"
+  },
+  "nav": {
+    "label": "Ana menü",
+    "library": "Paketlerim",
+    "discover": "Keşfet",
+    "operations": "İşlemler",
+    "settings": "Ayarlar",
+    "back": "Geri"
+  },
+  "console": {
+    "title": "Konsol",
+    "open": "Konsolu aç",
+    "close": "Konsolu kapat",
+    "clear": "Temizle",
+    "empty": "Henüz kayıt yok."
+  },
+  "common": {
+    "cancel": "Vazgeç",
+    "clear": "Temizle"
+  },
+  "source": {
+    "winget": "WinGet",
+    "chocolatey": "Chocolatey",
+    "msstore": "Microsoft Store",
+    "code": {
+      "winget": "WINGET",
+      "chocolatey": "CHOCO",
+      "msstore": "STORE",
+      "scoop": "SCOOP"
+    },
+    "scoop": "Scoop"
+  },
+  "template": {
+    "ledger": "Bakım Defteri",
+    "metro": "Metro Yönlendirme",
+    "ledgerDesc": "Sol menü, kayıt tablosu, servis kaşesi",
+    "metroDesc": "Üst tabela bandı, hat bölümleri, sürüm yolculuğu"
+  },
+  "library": {
+    "installed": "{n} kurulu",
+    "due": "{n} bakım bekliyor",
+    "dueShort": "{n} güncelleme bekliyor",
+    "lastChecked": "son kontrol {time}",
+    "neverChecked": "henüz kontrol edilmedi",
+    "updateAll": "{n} güncellemeyi yap",
+    "updateAllMetro": "{n} uygulamayı güncelle",
+    "updatingAll": "Güncelleniyor…",
+    "statusFilter": "Duruma göre süz",
+    "status": {
+      "due": "Güncelleme bekleyen",
+      "all": "Tümü",
+      "current": "Güncel",
+      "other": "Diğer"
+    },
+    "sourceFilter": "Kaynağa göre süz",
+    "allSources": "Tüm kaynaklar",
+    "search": "Uygulama adı ile ara",
+    "loading": "Kurulu uygulamalar okunuyor…",
+    "col": {
+      "no": "No.",
+      "app": "Uygulama",
+      "source": "Kaynak",
+      "installed": "Kurulu",
+      "latest": "Yeni",
+      "status": "Durum",
+      "actions": "İşlemler",
+      "version": "Sürüm"
+    },
+    "empty": {
+      "allCurrent": "Her şey güncel",
+      "allCurrentDesc": "Güncelleme bekleyen uygulama yok. Yeni sürümleri görmek için ara sıra Yenile'ye bas.",
+      "showAll": "Tüm uygulamaları göster",
+      "noMatch": "\"{q}\" ile eşleşen uygulama yok",
+      "none": "Bu filtrelere uyan uygulama yok",
+      "reset": "Filtreleri temizle"
+    },
+    "otherHint": "Bu uygulamalar hiçbir paket kaynağında yok. Hangar onları güncelleyemez ama buradan kaldırabilirsin.",
+    "noSource": "Kaynak dışı"
+  },
+  "state": {
+    "updateRunning": "Güncelleniyor · %{p}",
+    "installRunning": "Yükleniyor · %{p}",
+    "uninstallRunning": "Kaldırılıyor · %{p}",
+    "failed": "Olmadı",
+    "details": "Ayrıntı",
+    "due": "Bakım zamanı",
+    "stamped": "Güncellendi",
+    "current": "Güncel",
+    "update": "Güncelle",
+    "retry": "Tekrar dene",
+    "more": "{name} için diğer işlemler",
+    "openDetail": "Ayrıntıları aç",
+    "uninstall": "Kaldır",
+    "skipped": "{v} atlandı",
+    "pinned": "Sabitlendi",
+    "skipVersion": "{v} sürümünü atla",
+    "pin": "Güncellemeyi durdur",
+    "release": "Güncellemeyi sürdür"
+  },
+  "metro": {
+    "line": "{name} hattı",
+    "stops": "{n} uygulama",
+    "arrived": "{date} güncellendi",
+    "youAreHere": "Buradasınız",
+    "olderStop": "önceki sürüm"
+  },
+  "discover": {
+    "title": "Keşfet",
+    "subtitle": "WinGet, Chocolatey, Microsoft Store ve Scoop'ta ara, tek tıkla kur.",
+    "placeholder": "Kurmak istediğin uygulamayı yaz",
+    "search": "Ara",
+    "results": "\"{q}\" için {n} sonuç",
+    "searching": "Aranıyor…",
+    "loadingPopular": "Liste hazırlanıyor…",
+    "noResults": "\"{q}\" için sonuç yok",
+    "noResultsHint": "Yazımı kontrol et ya da başka bir kaynak seç.",
+    "installed": "Kurulu",
+    "install": "Yükle",
+    "categories": "Kategoriler",
+    "shelf": {
+      "popular": "Sık kurulanlar",
+      "browser": "Tarayıcılar",
+      "communication": "İletişim",
+      "media": "Medya",
+      "productivity": "Ofis ve notlar",
+      "developer": "Geliştirici",
+      "gaming": "Oyun",
+      "tools": "Araçlar",
+      "security": "Güvenlik"
+    }
+  },
+  "detail": {
+    "loading": "Paket bilgileri getiriliyor…",
+    "unknownPublisher": "Yayıncı bilinmiyor",
+    "updateTo": "{v} sürümüne güncelle",
+    "record": "Kayıt",
+    "packageId": "Paket kimliği",
+    "notInstalled": "Kurulu değil",
+    "description": "Açıklama",
+    "noDescription": "Bu paket için açıklama yok.",
+    "adminNote": "Kurulum sırasında Windows yönetici izni isteyebilir.",
+    "versions": "Sürümler",
+    "versionsLoading": "Sürümler getiriliyor…",
+    "noVersions": "Sürüm listesi alınamadı.",
+    "latest": "en yeni",
+    "installedHere": "Kurulu",
+    "switchTo": "Bu sürüme geç",
+    "installThis": "Bu sürümü kur",
+    "history": "Bakım geçmişi",
+    "noHistory": "Bu uygulama henüz buradan güncellenmedi.",
+    "lastMaintenance": "Son güncelleme"
+  },
+  "operations": {
+    "runningSummary": "{n} işlem sürüyor",
+    "failedSummary": "{n} başarısız",
+    "clear": "Tamamlananları temizle",
+    "col": {
+      "action": "İşlem",
+      "started": "Başladı"
+    },
+    "empty": "Henüz işlem yok",
+    "emptyDesc": "Kurduğun, güncellediğin ya da kaldırdığın uygulamalar burada görünür.",
+    "type": {
+      "install": "Kurulum",
+      "update": "Güncelleme",
+      "uninstall": "Kaldırma"
+    },
+    "status": {
+      "running": "Sürüyor",
+      "success": "Tamamlandı",
+      "error": "Başarısız"
+    },
+    "removed": "Kaldırıldı",
+    "output": "Komut çıktısı",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı"
+  },
+  "uninstall": {
+    "title": "{name} kaldırılsın mı?",
+    "desc": "Uygulama bu bilgisayardan silinir. Kendi ayarları ve dosyaları uygulamaya göre kalabilir.",
+    "confirm": "Kaldır"
+  },
+  "settings": {
+    "appearance": "Görünüm",
+    "general": "Genel",
+    "language": "Dil",
+    "languages": {
+      "tr": "Türkçe",
+      "en": "English"
+    },
+    "themes": "Temalar",
+    "themesHint": "Bir tema seç, kopyalayıp düzenle ya da JSON olarak paylaş. Özel temalar iki düzenden birini kullanabilir.",
+    "import": "İçe aktar",
+    "export": "Dışa aktar",
+    "importError": "Bu dosya geçerli bir tema değil.",
+    "builtin": "Hazır",
+    "custom": "Özel",
+    "mode": "Mod",
+    "modes": {
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem"
+    },
+    "save": "Kaydet",
+    "edit": "Düzenle",
+    "name": "Tema adı",
+    "copyName": "{name} (kopya)",
+    "groups": {
+      "ground": "Zemin",
+      "text": "Metin",
+      "rail": "Menü",
+      "accent": "Vurgu",
+      "state": "Durum",
+      "sources": "Kaynaklar"
+    },
+    "colors": {
+      "bg": "Arka plan",
+      "surface": "Yüzey",
+      "tint": "Başlık bandı",
+      "rule": "Çizgiler",
+      "ink": "Metin",
+      "ink-2": "İkincil metin",
+      "ink-3": "Silik metin",
+      "rail": "Menü zemini",
+      "rail-ink": "Menü metni",
+      "rail-muted": "Menü ikincil",
+      "accent": "Ana buton",
+      "accent-ink": "Ana buton metni",
+      "signature": "İmza rengi",
+      "focus": "Odak halkası",
+      "due": "Güncelleme bekliyor",
+      "danger": "Hata",
+      "success": "Başarılı",
+      "src-winget": "WinGet",
+      "src-chocolatey": "Chocolatey",
+      "src-msstore": "Microsoft Store",
+      "src-scoop": "Scoop"
+    },
+    "radius": "Köşe yarıçapı",
+    "fontSize": "Yazı boyutu",
+    "density": "Satır yoğunluğu",
+    "densities": {
+      "compact": "Sık",
+      "regular": "Normal",
+      "comfortable": "Rahat"
+    },
+    "font": "Başlık yazı tipi",
+    "fonts": {
+      "segoe": "Segoe UI",
+      "bahnschrift": "Bahnschrift (tabela)",
+      "system": "Sistem"
+    },
+    "silentDesc": "Kurulum pencereleri açılmaz ve lisans şartları otomatik kabul edilir; toplu güncellemeler takılmaz. Bir kurulum ayar sormak zorundaysa kapatıp tek başına çalıştır.",
+    "useDefault": "Varsayılana dön",
+    "copyEdit": "Kopyala ve düzenle",
+    "deleteNamed": "{name} temasını sil",
+    "editTitle": "Temayı düzenle",
+    "editLive": "Değişiklikler arkadaki ekranda hemen görünür.",
+    "layout": "Düzen",
+    "palette": "Düzenlenen palet",
+    "shape": "Biçim",
+    "resetDraft": "Varsayılana sıfırla",
+    "appList": "Uygulama listesi",
+    "appListDesc": "Kurulu uygulamalarını bir dosyaya kaydet, yeni bilgisayarda tek seferde kur. Dosya winget ile de açılır.",
+    "exportApps": "Listeyi kaydet",
+    "importApps": "Listeden kur",
+    "importTitle": "{n} uygulama kurulacak",
+    "importSkipped": "{n} uygulama zaten kurulu, atlanacak.",
+    "importNothing": "Listedeki uygulamaların hepsi zaten kurulu.",
+    "importInvalid": "Bu dosya okunamadı. Hangar ya da winget ile kaydedilmiş bir JSON dosyası seç.",
+    "installAll": "Hepsini kur"
+  },
+  "errors": {
+    "loadTitle": "Paketler okunamadı",
+    "loadDesc": "Kurulu uygulamalar listelenemedi: {message}",
+    "winget": {
+      "AccessDenied": "Erişim engellendi. Bu kurulum yönetici izni istiyor.",
+      "BlockedByPolicy": "Kurum ilkesi bu işlemi engelliyor.",
+      "CatalogError": "winget kaynağına ulaşılamadı. İnternet bağlantını kontrol et.",
+      "InvalidOptions": "Bu paket için geçersiz seçenek.",
+      "DownloadError": "Kurulum dosyası indirilemedi.",
+      "InstallError": "Kurulum programı hata verdi.",
+      "UninstallError": "Kaldırma programı hata verdi.",
+      "ManifestError": "Paket tanımı hatalı.",
+      "NoApplicableInstallers": "Bu bilgisayara uygun kurulum dosyası yok.",
+      "NoApplicableUpgrade": "Bu paket için uygulanabilir bir güncelleme yok.",
+      "PackageAgreementsNotAccepted": "Paket lisans sözleşmesi kabul edilmedi.",
+      "InternalError": "winget beklenmeyen bir hata verdi."
+    },
+    "choco": {
+      "cancelled": "Yönetici izni verilmedi, işlem iptal edildi.",
+      "failed": "Chocolatey işlemi başarısız oldu (çıkış kodu {code})."
+    },
+    "scoop": {
+      "failed": "Scoop işlemi tamamlanamadı. Ayrıntılar çıktıda."
+    }
+  },
+  "credits": {
+    "source": "Kaynak kod",
+    "by": "Geliştiren",
+    "github": "GitHub profili",
+    "linkedin": "LinkedIn profili"
+  },
+  "toast": {
+    "version": "Sürüm {v}",
+    "bulkFailed": "{n} işlem başarısız oldu. Ayrıntılar İşlemler sayfasında.",
+    "update": {
+      "done": "{name} güncellendi",
+      "failed": "{name} güncellenemedi",
+      "bulk": "{n} uygulama güncellendi"
+    },
+    "install": {
+      "done": "{name} kuruldu",
+      "failed": "{name} kurulamadı",
+      "bulk": "{n} uygulama kuruldu"
+    },
+    "uninstall": {
+      "done": "{name} kaldırıldı",
+      "failed": "{name} kaldırılamadı"
+    }
+  },
+  "appUpdate": {
+    "title": "Hangar {version} hazır",
+    "desc": "Yeni sürüm kurulunca Hangar yeniden açılır.",
+    "installing": "İndiriliyor ve kuruluyor…",
+    "failed": "Güncelleme kurulamadı. Daha sonra tekrar dene.",
+    "install": "Güncelle",
+    "later": "Sonra"
+  }
+}
